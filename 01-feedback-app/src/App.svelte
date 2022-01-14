@@ -18,8 +18,13 @@
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusamus dolorem excepturi possimus minima error atque cumque suscipit.",
     },
   ];
+
+  const deleteFeedback = (e) => {
+    const itemId = e.detail;
+    feedback = feedback.filter((item) => item.id !== itemId);
+  };
 </script>
 
 <main class="container">
-  <FeedbackList {feedback} />
+  <FeedbackList {feedback} on:delete-feedback={deleteFeedback} />
 </main>
