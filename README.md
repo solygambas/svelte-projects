@@ -1,6 +1,6 @@
 # Svelte Projects
 
-This repo is made of 1 project:
+This repo is made of 2 projects:
 
 1. [**Feedback App**](#feedback): A small project to understand Svelte core concepts.
 2. [**Poll Ninja**](#poll): A simple app to create polls.
@@ -46,5 +46,8 @@ A simple app to create polls.
 ### Features
 
 - setting up a Svelte app.
+- using reactive values and reactive statements.
+- rendering loops and conditionals.
+- handling events.
 
 Based on [Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO) by Shaun Pelling - The Net Ninja (2020).

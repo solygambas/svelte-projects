@@ -9,5 +9,8 @@ A simple app to create polls.
 ## Features
 
 - setting up a Svelte app.
+- using reactive values and reactive statements.
+- rendering loops and conditionals.
+- handling events.
 
 Based on [Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO) by Shaun Pelling - The Net Ninja (2020).
