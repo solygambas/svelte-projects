@@ -3,6 +3,7 @@
 This repo is made of 1 project:
 
 1. [**Feedback App**](#feedback): A small project to understand Svelte core concepts.
+2. [**Poll Ninja**](#poll): A simple app to create polls.
 
 ## <a name="feedback"></a>1) Feedback App
 
@@ -29,3 +30,21 @@ A small project to understand Svelte core concepts.
 - understanding onMount and onDestroy states.
 
 Based on [Svelte Crash Course](https://www.youtube.com/watch?v=3TVy6GdtNuQ) by Brad Traversy (2021).
+
+## <a name="poll"></a>2) Poll Ninja
+
+A simple app to create polls.
+
+[See 02-poll-ninja folder](https://github.com/solygambas/svelte-projects/tree/master/02-poll-ninja)
+
+<!-- <p align="center">
+    <a href="https://github.com/solygambas/svelte-projects/tree/master/02-poll-ninja">
+        <img src="02-poll-ninja/screenshot.png">
+    </a>
+</p> -->
+
+### Features
+
+- setting up a Svelte app.
+
+Based on [Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO) by Shaun Pelling - The Net Ninja (2020).
