@@ -1,8 +1,18 @@
 # Svelte Projects
 
-## Feedback App
+This repo is made of 1 project:
+
+1. [**Feedback App**](#feedback): A small project to understand Svelte core concepts.
+
+## <a name="feedback"></a>1) Feedback App
 
 A small project to understand Svelte core concepts.
+
+<p align="center">
+    <a href="https://github.com/solygambas/svelte-projects/tree/master/01-feedback-app">
+        <img src="01-feedback-app/screenshot.png">
+    </a>
+</p>
 
 ### Features
 
@@ -13,5 +23,7 @@ A small project to understand Svelte core concepts.
 - counting reviews and displaying ratings average with reactive values.
 - handling user inputs with reactive values.
 - adding transitions with svelte/transition.
+- getting the data from the store.
+- understanding onMount and onDestroy states.
 
 Based on [Svelte Crash Course](https://www.youtube.com/watch?v=3TVy6GdtNuQ) by Brad Traversy (2021).

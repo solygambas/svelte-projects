@@ -2,6 +2,16 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solygambas/svelte-projects.git"
+  },
+  "author": "solygambas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solygambas/svelte-projects/issues"
+  },
+  "homepage": "https://github.com/solygambas/svelte-projects#readme",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
