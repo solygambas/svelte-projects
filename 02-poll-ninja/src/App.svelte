@@ -1,4 +1,6 @@
 <script>
+  import Modal from "./Modal.svelte";
+
   // export let name;
 
   // REACTIVE VALUES
@@ -26,6 +28,9 @@
   // CONDITIONALS
   let num = 3;
 </script>
+
+<!-- COMPONENTS -->
+<Modal />
 
 <main>
   <!-- REACTIVE VALUES -->
