@@ -1,5 +1,9 @@
 <script>
+  import { createEventDispatcher } from "svelte";
+
   import Button from "../shared/Button.svelte";
+
+  const dispatch = createEventDispatcher();
 
   let fields = { question: "", answerA: "", answerB: "" };
   let errors = { question: "", answerA: "", answerB: "" };
@@ -30,7 +34,8 @@
     }
     // add new poll
     if (valid) {
-      console.log("valid", fields);
+      let poll = { ...fields, votesA: 0, votesB: 0, id: Math.random() };
+      dispatch("add", poll);
     }
   };
 </script>
