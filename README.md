@@ -51,5 +51,6 @@ A simple app to create polls.
 - creating a layout, reusing some components and managing CSS.
 - forwarding events, using event modifiers and displaying slots.
 - building forms, validating user inputs and dispatching custom events.
+- casting votes and displaying vote bars.
 
 Based on [Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO) by Shaun Pelling - The Net Ninja (2020).
