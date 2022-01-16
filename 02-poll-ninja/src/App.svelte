@@ -27,10 +27,15 @@
 
   // CONDITIONALS
   let num = 3;
+  let showModal = false;
+
+  // EVENT FORWARDING
+  const toggleModal = () => (showModal = !showModal);
 </script>
 
-<!-- COMPONENTS -->
-<Modal />
+<!-- COMPONENTS & PROPS -->
+<!-- <Modal message="Hey, I am a prop value" isPromo={true} /> -->
+<Modal message="Hey there again" {showModal} on:click={toggleModal} />
 
 <main>
   <!-- REACTIVE VALUES -->
@@ -61,6 +66,9 @@
   {:else}
     <p>Not greater than 5</p>
   {/if}
+
+  <!-- EVENT FORWARDING -->
+  <button on:click={toggleModal}>Open Modal</button>
 </main>
 
 <style>
@@ -69,13 +77,6 @@
     padding: 1em;
     max-width: 240px;
     margin: 0 auto;
-  }
-
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
   }
 
   @media (min-width: 640px) {
