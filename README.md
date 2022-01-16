@@ -9,10 +9,10 @@ This repo is made of 2 projects:
 
 A small project to understand Svelte core concepts.
 
-[See 01-feedback-app folder](https://github.com/solygambas/svelte-projects/tree/master/01-feedback-app)
+[See 01-feedback-app folder](https://github.com/solygambas/svelte-projects/tree/main/01-feedback-app)
 
 <p align="center">
-    <a href="https://github.com/solygambas/svelte-projects/tree/master/01-feedback-app">
+    <a href="https://github.com/solygambas/svelte-projects/tree/main/01-feedback-app">
         <img src="01-feedback-app/screenshot.png">
     </a>
 </p>
@@ -35,10 +35,10 @@ Based on [Svelte Crash Course](https://www.youtube.com/watch?v=3TVy6GdtNuQ) by B
 
 A simple app to create polls.
 
-[See 02-poll-ninja folder](https://github.com/solygambas/svelte-projects/tree/master/02-poll-ninja)
+[See 02-poll-ninja folder](https://github.com/solygambas/svelte-projects/tree/main/02-poll-ninja)
 
 <!-- <p align="center">
-    <a href="https://github.com/solygambas/svelte-projects/tree/master/02-poll-ninja">
+    <a href="https://github.com/solygambas/svelte-projects/tree/main/02-poll-ninja">
         <img src="02-poll-ninja/screenshot.png">
     </a>
 </p> -->
@@ -50,6 +50,6 @@ A simple app to create polls.
 - rendering loops, using conditionals and handling events.
 - creating a layout, reusing some components and managing CSS.
 - forwarding events, using event modifiers and displaying slots.
-- building forms and dispatching custom events.
+- building forms, validating user inputs and dispatching custom events.
 
 Based on [Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO) by Shaun Pelling - The Net Ninja (2020).
