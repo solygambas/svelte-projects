@@ -32,6 +32,13 @@
 
   // EVENT FORWARDING
   const toggleModal = () => (showModal = !showModal);
+
+  // CUSTOM EVENTS
+  const addPerson = (e) => {
+    const person = e.detail;
+    people = [person, ...people];
+    showModal = false;
+  };
 </script>
 
 <!-- COMPONENTS & PROPS -->
@@ -39,7 +46,7 @@
 <!-- <Modal message="Hey there again" {showModal} on:click={toggleModal} /> -->
 <Modal {showModal} on:click={toggleModal}>
   <!-- <h3>Add a new person</h3> -->
-  <AddPersonForm />
+  <AddPersonForm on:addPerson={addPerson} />
   <!-- <div slot="title">
     <h3>Add a new person</h3>
   </div> -->
