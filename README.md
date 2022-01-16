@@ -48,7 +48,7 @@ A simple app to create polls.
 - setting up a Svelte app.
 - using reactive values and reactive statements.
 - rendering loops, using conditionals and handling events.
-- creating components and managing CSS.
+- creating a layout, reusing some components and managing CSS.
 - forwarding events, using event modifiers and displaying slots.
 - building forms and dispatching custom events.
 
