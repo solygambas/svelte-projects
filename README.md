@@ -49,6 +49,7 @@ A simple app to create polls.
 - using reactive values and reactive statements.
 - rendering loops, using conditionals and handling events.
 - creating components and managing CSS.
-- forwarding events.
+- forwarding events, using event modifiers and displaying slots.
+- building forms and dispatching custom events.
 
 Based on [Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO) by Shaun Pelling - The Net Ninja (2020).

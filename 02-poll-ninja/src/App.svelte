@@ -1,5 +1,6 @@
 <script>
   import Modal from "./Modal.svelte";
+  import AddPersonForm from "./AddPersonForm.svelte";
 
   // export let name;
 
@@ -35,7 +36,14 @@
 
 <!-- COMPONENTS & PROPS -->
 <!-- <Modal message="Hey, I am a prop value" isPromo={true} /> -->
-<Modal message="Hey there again" {showModal} on:click={toggleModal} />
+<!-- <Modal message="Hey there again" {showModal} on:click={toggleModal} /> -->
+<Modal {showModal} on:click={toggleModal}>
+  <!-- <h3>Add a new person</h3> -->
+  <AddPersonForm />
+  <!-- <div slot="title">
+    <h3>Add a new person</h3>
+  </div> -->
+</Modal>
 
 <main>
   <!-- REACTIVE VALUES -->
@@ -67,8 +75,8 @@
     <p>Not greater than 5</p>
   {/if}
 
-  <!-- EVENT FORWARDING -->
-  <button on:click={toggleModal}>Open Modal</button>
+  <!-- EVENT FORWARDING & EVENT MODIFIERS -->
+  <button on:click|once={toggleModal}>Open Modal</button>
 </main>
 
 <style>
