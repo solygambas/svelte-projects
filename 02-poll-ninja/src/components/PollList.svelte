@@ -24,6 +24,8 @@
   {#each $PollStore as poll (poll.id)}
     <!-- <div><PollDetails {poll} on:vote /></div> -->
     <div><PollDetails {poll} /></div>
+  {:else}
+    <p>No polls found. Add New Poll!</p>
   {/each}
 </div>
 
