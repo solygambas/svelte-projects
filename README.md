@@ -1,9 +1,10 @@
 # Svelte Projects
 
-This repo is made of 2 projects:
+This repo is made of 3 projects:
 
 1. [**Feedback App**](#feedback): A small project to understand Svelte core concepts.
 2. [**Poll Ninja**](#poll): A simple app to create polls.
+3. [**Ninja Gaming Reviews**](#gaming): A basic website using SvelteKit.
 
 ## <a name="feedback"></a>1) Feedback App
 
@@ -56,3 +57,21 @@ A simple app to create polls.
 - adding micro-interactions with svelte/transition, svelte/animate and svelte/motion.
 
 Based on [Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO) by Shaun Pelling - The Net Ninja (2020).
+
+## <a name="gaming"></a>3) Ninja Gaming Reviews
+
+A basic website using SvelteKit.
+
+[See 03-ninja-gaming-reviews folder](https://github.com/solygambas/svelte-projects/tree/main/03-ninja-gaming-reviews)
+
+<!-- <p align="center">
+    <a href="https://github.com/solygambas/svelte-projects/tree/main/03-ninja-gaming-reviews">
+        <img src="03-ninja-gaming-reviews/screenshot.png">
+    </a>
+</p> -->
+
+### Features
+
+- setting up a SvelteKit app.
+
+Based on [SvelteKit Crash Course Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP) by Shaun Pelling - The Net Ninja (2022).

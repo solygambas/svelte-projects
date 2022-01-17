@@ -1,0 +1,26 @@
+{
+  "name": "03-ninja-gaming-reviews",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solygambas/svelte-projects.git"
+  },
+  "author": "solygambas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solygambas/svelte-projects/issues"
+  },
+  "homepage": "https://github.com/solygambas/svelte-projects#readme",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "1.0.0-next.198",
+    "svelte": "^3.44.0"
+  },
+  "type": "module"
+}
