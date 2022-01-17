@@ -2,6 +2,10 @@
 
 A basic website using SvelteKit.
 
+## Demo
+
+[See Demo deployed on Vercel](https://sveltekit-ninja-gaming.vercel.app/)
+
 <p align="center">
         <img src="screenshot.png">
 </p>
@@ -12,7 +16,7 @@ A basic website using SvelteKit.
 - understanding pages and routes.
 - creating a global layout, resetting it and reusing components.
 - fetching data with server-side and client-side renderings.
-- handling dynamic routing and redirects.
+- handling dynamic routes and redirects.
 - pre-fetching data and adding custom error pages.
 - deploying to Vercel.
 

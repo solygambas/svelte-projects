@@ -64,6 +64,10 @@ A basic website using SvelteKit.
 
 [See 03-ninja-gaming-reviews folder](https://github.com/solygambas/svelte-projects/tree/main/03-ninja-gaming-reviews)
 
+### Demo
+
+[See Demo deployed on Vercel](https://sveltekit-ninja-gaming.vercel.app/)
+
 <p align="center">
     <a href="https://github.com/solygambas/svelte-projects/tree/main/03-ninja-gaming-reviews">
         <img src="03-ninja-gaming-reviews/screenshot.png">
@@ -76,7 +80,7 @@ A basic website using SvelteKit.
 - understanding pages and routes.
 - creating a global layout, resetting it and reusing components.
 - fetching data with server-side and client-side renderings.
-- handling dynamic routing and redirects.
+- handling dynamic routes and redirects.
 - pre-fetching data and adding custom error pages.
 - deploying to Vercel.
 
