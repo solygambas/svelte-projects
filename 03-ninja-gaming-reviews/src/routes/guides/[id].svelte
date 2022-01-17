@@ -1,6 +1,7 @@
 <script context="module">
   // will run server-side and client-side
   export async function load({ fetch, params }) {
+    // await new Promise((resolve) => setTimeout(resolve, 1000));
     const id = params.id;
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
     const guide = await res.json();

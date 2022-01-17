@@ -2,9 +2,9 @@
 
 A basic website using SvelteKit.
 
-<!-- <p align="center">
+<p align="center">
         <img src="screenshot.png">
-</p> -->
+</p>
 
 ## Features
 
@@ -13,5 +13,7 @@ A basic website using SvelteKit.
 - creating a global layout, resetting it and reusing components.
 - fetching data with server-side and client-side renderings.
 - handling dynamic routing and redirects.
+- pre-fetching data and adding custom error pages.
+- deploying to Vercel.
 
 Based on [SvelteKit Crash Course Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP) by Shaun Pelling - The Net Ninja (2022).

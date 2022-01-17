@@ -64,11 +64,11 @@ A basic website using SvelteKit.
 
 [See 03-ninja-gaming-reviews folder](https://github.com/solygambas/svelte-projects/tree/main/03-ninja-gaming-reviews)
 
-<!-- <p align="center">
+<p align="center">
     <a href="https://github.com/solygambas/svelte-projects/tree/main/03-ninja-gaming-reviews">
         <img src="03-ninja-gaming-reviews/screenshot.png">
     </a>
-</p> -->
+</p>
 
 ### Features
 
@@ -77,5 +77,7 @@ A basic website using SvelteKit.
 - creating a global layout, resetting it and reusing components.
 - fetching data with server-side and client-side renderings.
 - handling dynamic routing and redirects.
+- pre-fetching data and adding custom error pages.
+- deploying to Vercel.
 
 Based on [SvelteKit Crash Course Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP) by Shaun Pelling - The Net Ninja (2022).
