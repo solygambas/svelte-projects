@@ -26,7 +26,7 @@
 <div class="guides">
   <ul>
     {#each guides as guide (guide.id)}
-      <li><a href="/">{guide.title}</a></li>
+      <li><a href={`/guides/${guide.id}`}>{guide.title}</a></li>
     {/each}
   </ul>
 </div>

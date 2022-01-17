@@ -75,6 +75,7 @@ A basic website using SvelteKit.
 - setting up a SvelteKit app.
 - understanding pages and routes.
 - creating a global layout, resetting it and reusing components.
-- fetching server-side and client-side data.
+- fetching data with server-side and client-side renderings.
+- handling dynamic routing and redirects.
 
 Based on [SvelteKit Crash Course Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP) by Shaun Pelling - The Net Ninja (2022).
