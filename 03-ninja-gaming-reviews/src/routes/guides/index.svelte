@@ -1,7 +1,33 @@
+<script context="module">
+  // will run server-side and client-side
+  export async function load({ fetch }) {
+    const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+    const guides = await res.json();
+    // console.log(guides[0]);
+    // console.log(window) //server-side error
+    if (res.ok) {
+      return {
+        props: {
+          guides,
+        },
+      };
+    }
+    return {
+      status: res.status,
+      error: new Error("Could not fetch the guides"),
+    };
+  }
+</script>
+
+<script>
+  export let guides;
+</script>
+
 <div class="guides">
   <ul>
-    <li><a href="/">guide 1</a></li>
-    <li><a href="/">guide 2</a></li>
+    {#each guides as guide (guide.id)}
+      <li><a href="/">{guide.title}</a></li>
+    {/each}
   </ul>
 </div>
 
