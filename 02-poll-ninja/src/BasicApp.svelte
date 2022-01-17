@@ -1,3 +1,7 @@
+<!-- https://svelte.dev/tutorial/basics 
+https://svelte.dev/docs
+https://svelte.dev/examples/hello-world
+-->
 <script>
   import Modal from "./components/Modal.svelte";
   import AddPersonForm from "./components/AddPersonForm.svelte";

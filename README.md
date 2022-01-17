@@ -37,11 +37,11 @@ A simple app to create polls.
 
 [See 02-poll-ninja folder](https://github.com/solygambas/svelte-projects/tree/main/02-poll-ninja)
 
-<!-- <p align="center">
+<p align="center">
     <a href="https://github.com/solygambas/svelte-projects/tree/main/02-poll-ninja">
         <img src="02-poll-ninja/screenshot.png">
     </a>
-</p> -->
+</p>
 
 ### Features
 
@@ -53,5 +53,6 @@ A simple app to create polls.
 - building forms, validating user inputs and dispatching custom events.
 - casting votes and displaying vote bars.
 - managing polls with a store, updating store data and deleting polls.
+- adding micro-interactions with svelte/transition, svelte/animate and svelte/motion.
 
 Based on [Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO) by Shaun Pelling - The Net Ninja (2020).
