@@ -2,14 +2,17 @@
   export let title = "Ninja Gaming";
 </script>
 
-<div class="title">
-  <img src="/controller.svg" alt="Ninja Gaming logo" />
-  <h1>{title}</h1>
+<div>
+  <a href="/" class="title"
+    ><img src="/controller.svg" alt="Ninja Gaming logo" />
+    <h1>{title}</h1></a
+  >
 </div>
 
 <style>
   .title {
     display: flex;
+    text-decoration: none;
   }
   .title img {
     display: inline-block;

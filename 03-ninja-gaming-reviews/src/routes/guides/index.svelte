@@ -1,8 +1,10 @@
 <script context="module">
   // will run server-side and client-side
   export async function load({ fetch }) {
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-    const guides = await res.json();
+    // const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+    // const guides = await res.json();
+    const res = await fetch("/guides.json");
+    const {guides} = await res.json();
     // console.log(guides[0]);
     // console.log(window) //server-side error
     if (res.ok) {

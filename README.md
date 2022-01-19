@@ -82,6 +82,7 @@ A basic website using SvelteKit.
 - fetching data with server-side and client-side renderings.
 - handling dynamic routes and redirects.
 - pre-fetching data and adding custom error pages.
+- using API routes.
 - deploying to Vercel.
 
 Based on [SvelteKit Crash Course Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP) by Shaun Pelling - The Net Ninja (2022).
