@@ -1,10 +1,12 @@
 # Svelte Projects
 
-This repo is made of 3 projects:
+3 small projects to understand Svelte core concepts.
 
-1. [**Feedback App**](#feedback): A small project to understand Svelte core concepts.
-2. [**Poll Ninja**](#poll): A simple app to create polls.
-3. [**Ninja Gaming Reviews**](#gaming): A basic website using SvelteKit.
+| #   | Project                           | Description                                           |
+| --- | --------------------------------- | ----------------------------------------------------- |
+| 01  | [**Feedback App**](#feedback) | A small project to understand Svelte core concepts.               |
+| 02  | [**Poll Ninja**](#poll)        | A simple app to create polls.           |
+| 03  | [**Ninja Gaming Reviews**](#gaming)     | A basic website using SvelteKit.                                 |
 
 ## <a name="feedback"></a>1) Feedback App
 
