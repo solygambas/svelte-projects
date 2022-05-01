@@ -12,10 +12,10 @@
 
 A small project to understand Svelte core concepts.
 
-[See 01-feedback-app folder](https://github.com/solygambas/svelte-projects/tree/main/01-feedback-app)
+[See 01-feedback-app folder](01-feedback-app)
 
 <p align="center">
-    <a href="https://github.com/solygambas/svelte-projects/tree/main/01-feedback-app">
+    <a href="01-feedback-app">
         <img src="01-feedback-app/screenshot.png">
     </a>
 </p>
@@ -38,10 +38,10 @@ Based on [Svelte Crash Course](https://www.youtube.com/watch?v=3TVy6GdtNuQ) by B
 
 A simple app to create polls.
 
-[See 02-poll-ninja folder](https://github.com/solygambas/svelte-projects/tree/main/02-poll-ninja)
+[See 02-poll-ninja folder](02-poll-ninja)
 
 <p align="center">
-    <a href="https://github.com/solygambas/svelte-projects/tree/main/02-poll-ninja">
+    <a href="02-poll-ninja">
         <img src="02-poll-ninja/screenshot.png">
     </a>
 </p>
@@ -64,14 +64,14 @@ Based on [Svelte Tutorial for Beginners](https://www.youtube.com/playlist?list=P
 
 A basic website using SvelteKit.
 
-[See 03-ninja-gaming-reviews folder](https://github.com/solygambas/svelte-projects/tree/main/03-ninja-gaming-reviews)
+[See 03-ninja-gaming-reviews folder](03-ninja-gaming-reviews)
 
 ### Demo
 
 [See Demo deployed on Vercel](https://sveltekit-ninja-gaming.vercel.app/)
 
 <p align="center">
-    <a href="https://github.com/solygambas/svelte-projects/tree/main/03-ninja-gaming-reviews">
+    <a href="03-ninja-gaming-reviews">
         <img src="03-ninja-gaming-reviews/screenshot.png">
     </a>
 </p>
