@@ -97,7 +97,9 @@ A movie app using SvelteKit.
 [See 04-moviedb folder](04-moviedb)
 
 <p align="center">
+    <a href="04-moviedb">
         <img src="04-moviedb/screenshot.png">
+    </a>
 </p>
 
 ### Features
