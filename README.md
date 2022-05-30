@@ -1,12 +1,13 @@
 # Svelte Projects
 
-3 small projects to understand Svelte core concepts.
+4 small projects to understand Svelte core concepts.
 
 | #   | Project                           | Description                                           |
 | --- | --------------------------------- | ----------------------------------------------------- |
 | 01  | [**Feedback App**](#feedback) | A small project to understand Svelte core concepts.               |
 | 02  | [**Poll Ninja**](#poll)        | A simple app to create polls.           |
 | 03  | [**Ninja Gaming Reviews**](#gaming)     | A basic website using SvelteKit.                                 |
+| 04  | [**Movie DB**](#moviedb)     | A movie app using SvelteKit.                                 |
 
 ## <a name="feedback"></a>1) Feedback App
 
@@ -88,3 +89,26 @@ A basic website using SvelteKit.
 - deploying to Vercel.
 
 Based on [SvelteKit Crash Course Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP) by Shaun Pelling - The Net Ninja (2022).
+
+## <a name="moviedb"></a>4) Movie DB
+
+A movie app using SvelteKit.
+
+[See 04-moviedb folder](04-moviedb)
+
+<p align="center">
+        <img src="04-moviedb/screenshot.png">
+</p>
+
+### Features
+
+- setting up a SvelteKit app.
+- fetching data from TMDB API.
+- displaying popular movies in a grid.
+- showing movie details.
+- adding global styles.
+- creating a layout.
+- adding a search bar.
+- using animations and page transitions.
+
+Based on [SvelteKit For Beginners | Movie App Tutorial](https://www.youtube.com/watch?v=ydR_M0fw9Xc) by Simo Edwin - Dev Ed (2022).
