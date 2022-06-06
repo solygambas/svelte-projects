@@ -17,6 +17,14 @@
 <script>
 	import { fly } from 'svelte/transition';
 	export let movieDetail;
+
+	function convertTime(runtime) {
+		const hours = Math.floor(runtime / 60);
+		const minutes = runtime % 60;
+		return `${hours} ${hours > 1 ? 'hours' : 'hour'} ${minutes} ${
+			minutes > 1 ? 'minutes' : 'minute'
+		}`;
+	}
 </script>
 
 <div
@@ -42,7 +50,7 @@
 			{/if}
 			{#if movieDetail.budget > 0}
 				<span>Budget:</span>
-				{movieDetail.budget}<br />
+				{movieDetail.budget.toLocaleString()}<br />
 			{/if}
 			{#if movieDetail.vote_average > 0}
 				<span>Rating:</span>
@@ -50,7 +58,7 @@
 			{/if}
 			{#if movieDetail.runtime > 0}
 				<span>Runtime:</span>
-				{movieDetail.runtime}mins
+				{convertTime(movieDetail.runtime)}
 			{/if}
 		</p>
 	</div>
