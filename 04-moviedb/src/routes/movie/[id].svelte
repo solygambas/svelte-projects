@@ -21,9 +21,13 @@
 	function convertTime(runtime) {
 		const hours = Math.floor(runtime / 60);
 		const minutes = runtime % 60;
-		return `${hours} ${hours > 1 ? 'hours' : 'hour'} ${minutes} ${
-			minutes > 1 ? 'minutes' : 'minute'
-		}`;
+		return `${hours > 0 ? hours : ''} ${
+			hours > 1 ? 'hours ' : hours > 0 ? 'hour ' : ''
+		}${minutes} ${minutes > 1 ? 'minutes' : 'minute'}`;
+	}
+
+	function createURI(title, release) {
+		return encodeURI(title + ' ' + release.substring(0, 4));
 	}
 </script>
 
@@ -58,8 +62,31 @@
 			{/if}
 			{#if movieDetail.runtime > 0}
 				<span>Runtime:</span>
-				{convertTime(movieDetail.runtime)}
+				{convertTime(movieDetail.runtime)}<br />
 			{/if}
+		</p>
+		<p>
+			<span
+				><a
+					href={`https://www.imdb.com/find?q=${createURI(
+						movieDetail.title,
+						movieDetail.release_date
+					)}`}
+					rel="noorigin noreferrer"
+					target="_blank">IMDB</a
+				></span
+			>
+			(EN) -
+			<span
+				><a
+					href={`https://www.allocine.fr/rechercher/?q=${createURI(
+						movieDetail.title,
+						movieDetail.release_date
+					)}`}
+					rel="noorigin noreferrer"
+					target="_blank">AlloCiné</a
+				></span
+			> (FR)
 		</p>
 	</div>
 </div>
