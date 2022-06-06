@@ -36,14 +36,22 @@
 		<h1>{movieDetail.title}</h1>
 		<p class="overview">{movieDetail.overview}</p>
 		<p>
-			<span>Release date:</span>
-			{movieDetail.release_date}<br />
-			<span>Budget:</span>
-			{movieDetail.budget}<br />
-			<span>Rating:</span>
-			{movieDetail.vote_average}<br />
-			<span>Runtime:</span>
-			{movieDetail.runtime}mins
+			{#if movieDetail.release_date}
+				<span>Release date:</span>
+				{movieDetail.release_date}<br />
+			{/if}
+			{#if movieDetail.budget > 0}
+				<span>Budget:</span>
+				{movieDetail.budget}<br />
+			{/if}
+			{#if movieDetail.vote_average > 0}
+				<span>Rating:</span>
+				{movieDetail.vote_average}<br />
+			{/if}
+			{#if movieDetail.runtime > 0}
+				<span>Runtime:</span>
+				{movieDetail.runtime}mins
+			{/if}
 		</p>
 	</div>
 </div>
