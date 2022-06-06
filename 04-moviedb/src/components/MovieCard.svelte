@@ -14,9 +14,9 @@
 	<div class="description">
 		<h2>{movie.title}</h2>
 		<p>
-			{movie.vote_average > 0 ? `${movie.vote_average} - ` : ''}{movie.release_date
-				? movie.release_date.substring(0, 4)
-				: ''}
+			{movie.vote_average > 0
+				? `${movie.vote_average} ${movie.release_date ? '- ' : ''}`
+				: ''}{movie.release_date ? movie.release_date.substring(0, 4) : ''}
 		</p>
 	</div>
 </div>
