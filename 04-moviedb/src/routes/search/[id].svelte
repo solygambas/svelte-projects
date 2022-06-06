@@ -6,7 +6,6 @@
 			}&language=en-US&query=${params.id}&page=1&include_adult=false`
 		);
 		const data = await res.json();
-		console.log(data);
 		if (res.ok) {
 			return {
 				props: { searchedMovies: data.results }
