@@ -17,11 +17,9 @@
 <script>
 	import { fly } from 'svelte/transition';
 	import PopularMovies from '../components/PopularMovies.svelte';
-	import SearchMovies from '../components/SearchMovies.svelte';
 	export let popular;
 </script>
 
 <section in:fly={{ y: 50, duration: 500, delay: 500 }} out:fly={{ duration: 500 }}>
-	<SearchMovies />
 	<PopularMovies {popular} />
 </section>

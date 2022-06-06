@@ -1,6 +1,11 @@
+<script>
+	import SearchMovies from '../components/SearchMovies.svelte';
+</script>
+
 <nav>
 	<a href="/">Movie Database</a>
 </nav>
+<SearchMovies />
 
 <style>
 	nav {

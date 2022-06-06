@@ -26,7 +26,9 @@
 >
 	<div class="img-container">
 		<img
-			src={'https://image.tmdb.org/t/p/original' + movieDetail.backdrop_path}
+			src={movieDetail.backdrop_path
+				? 'https://image.tmdb.org/t/p/original' + movieDetail.backdrop_path
+				: '/noposter.png'}
 			alt={movieDetail.title}
 		/>
 	</div>

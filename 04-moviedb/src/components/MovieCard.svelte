@@ -4,11 +4,20 @@
 
 <div class="movie-card">
 	<a sveltekit:prefetch href={'/movie/' + movie.id}>
-		<img src={'https://image.tmdb.org/t/p/w500' + movie.poster_path} alt={movie.title} />
+		<img
+			src={movie.poster_path
+				? 'https://image.tmdb.org/t/p/w500' + movie.poster_path
+				: '/noimage.png'}
+			alt={movie.title}
+		/>
 	</a>
 	<div class="description">
 		<h2>{movie.title}</h2>
-		<p>{movie.release_date}</p>
+		<p>
+			{movie.vote_average > 0 ? `${movie.vote_average} - ` : ''}{movie.release_date
+				? movie.release_date.substring(0, 4)
+				: ''}
+		</p>
 	</div>
 </div>
 
