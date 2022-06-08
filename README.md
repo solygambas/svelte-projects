@@ -96,6 +96,10 @@ A movie app using SvelteKit.
 
 [See 04-moviedb folder](04-moviedb)
 
+### Demo
+
+[See Demo deployed on Netlify](https://sveltekit-moviedb.netlify.app/)
+
 <p align="center">
     <a href="04-moviedb">
         <img src="04-moviedb/screenshot.png">
@@ -112,5 +116,6 @@ A movie app using SvelteKit.
 - creating a layout.
 - adding a search bar.
 - using animations and page transitions.
+- deploying to Netlify.
 
 Based on [SvelteKit For Beginners | Movie App Tutorial](https://www.youtube.com/watch?v=ydR_M0fw9Xc) by Simo Edwin - Dev Ed (2022).
